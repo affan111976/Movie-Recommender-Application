@@ -1,9 +1,6 @@
 import requests
 import streamlit as st
 
-API_KEY = "57f538d6f476644e2c695c112870b186"
-BASE_URL = "https://api.themoviedb.org/3/movie/{}"
-
 def fetch_poster(movie_id):
     """Fetches the movie poster URL from TMDB."""
     try:
